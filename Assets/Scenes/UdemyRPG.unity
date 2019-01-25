@@ -112,6 +112,47 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &98798734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1426619975343389166, guid: eca123d760c2aa9f78b6024ec0fe1885,
+    type: 3}
+  m_PrefabInstance: {fileID: 433991086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &230219982 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 225775328895059850, guid: ba2fb5b91af898bf6b0781b3f8ffe815,
+    type: 3}
+  m_PrefabInstance: {fileID: 1043531623}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &230219983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230219982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98269a5891b3245db82aaf98a8faa9a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyNames:
+  - setup
+  varNames:
+  - pjago.camera/start-main-camera
+  arcadiaState: {fileID: 230219985}
+--- !u!114 &230219985 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5252456271017543260, guid: ba2fb5b91af898bf6b0781b3f8ffe815,
+    type: 3}
+  m_PrefabInstance: {fileID: 1043531623}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230219982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bab27575ee84411b029b5f5e98734f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &389649284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -201,12 +242,12 @@ PrefabInstance:
     - target: {fileID: 1426619975343656042, guid: eca123d760c2aa9f78b6024ec0fe1885,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.00000017881393
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1426619975343656042, guid: eca123d760c2aa9f78b6024ec0fe1885,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.47567
+      value: -6.5
       objectReference: {fileID: 0}
     - target: {fileID: 1426619975343656042, guid: eca123d760c2aa9f78b6024ec0fe1885,
         type: 3}
@@ -497,17 +538,17 @@ PrefabInstance:
     - target: {fileID: 225775328895059853, guid: ba2fb5b91af898bf6b0781b3f8ffe815,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.34
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 225775328895059853, guid: ba2fb5b91af898bf6b0781b3f8ffe815,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.27
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 225775328895059853, guid: ba2fb5b91af898bf6b0781b3f8ffe815,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.96
+      value: -9
       objectReference: {fileID: 0}
     - target: {fileID: 225775328895059853, guid: ba2fb5b91af898bf6b0781b3f8ffe815,
         type: 3}
@@ -554,6 +595,24 @@ PrefabInstance:
       propertyPath: field of view
       value: 70
       objectReference: {fileID: 0}
+    - target: {fileID: 5252456271017543260, guid: ba2fb5b91af898bf6b0781b3f8ffe815,
+        type: 3}
+      propertyPath: serializedData
+      value: '{:follow #unity/object[UnityEngine.GameObject -17718], :follow/rotation
+        #unity/value["Quaternion",0.9848078,0.1736482,0,0], :follow/position #unity/value["Vector3",0.6999999,2.3,-2.5],
+        :follow/scale #unity/value["Vector3",1,1,1], :player #unity/object[UnityEngine.GameObject
+        -17718]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5252456271017543260, guid: ba2fb5b91af898bf6b0781b3f8ffe815,
+        type: 3}
+      propertyPath: objectDatabaseIds.Array.data[0]
+      value: -17718
+      objectReference: {fileID: 0}
+    - target: {fileID: 5252456271017543260, guid: ba2fb5b91af898bf6b0781b3f8ffe815,
+        type: 3}
+      propertyPath: objectDatabaseObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 98798734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba2fb5b91af898bf6b0781b3f8ffe815, type: 3}
 --- !u!1001 &1294656345
