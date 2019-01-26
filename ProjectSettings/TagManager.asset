@@ -44,6 +44,9 @@ TagManager:
   - name: Item
     uniqueID: 298099441
     locked: 0
+  - name: Nota
+    uniqueID: 4143559183
+    locked: 0
   - name: Avatar
     uniqueID: 3602222767
     locked: 0
