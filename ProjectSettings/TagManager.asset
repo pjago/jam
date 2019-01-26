@@ -14,7 +14,7 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
+  - Block
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Item
+    uniqueID: 298099441
+    locked: 0
+  - name: Avatar
+    uniqueID: 3602222767
     locked: 0
