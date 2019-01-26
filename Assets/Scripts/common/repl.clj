@@ -362,7 +362,7 @@
 
 (alter-var-root #'x/keypath (constantly keypath))
 (alter-var-root #'x/resource (constantly resource))
-(alter-var-root #'x/clone! (constantly clone!)) ;bug: undo
+;(alter-var-root #'x/clone! (constantly clone!)) ;bug: undo
 
 (defn tag-all! "creates tags for GameObject resources found with id.\n  You can pass an empty string to really tag all."
   [id]

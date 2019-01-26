@@ -14,7 +14,7 @@
  :compiler-options {}
 
  ;; declare specific compilation targets, will also compile their dependencies
- ;; :export-namespaces [foo.core]
+ :export-namespaces [pjago.core]
 
  ;; set to true in user configuration.edn to enable automatic code
  ;; reloading when a clojure file is saved

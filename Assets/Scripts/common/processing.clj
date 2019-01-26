@@ -140,7 +140,7 @@
                   t)))
          ([acc] (root acc))
          ([acc in] (root acc in))))
-     (nil? x)
+     (nil? x) ;idk... maybe nil could be used for something else
      (wrap (scene) rf)
      :else 
      (wrap x rf))))
