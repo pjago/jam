@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1043531623}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 230219982}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 68bab27575ee84411b029b5f5e98734f, type: 3}
   m_Name: 
@@ -535,6 +535,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: main-camera
       objectReference: {fileID: 0}
+    - target: {fileID: 5252456271017543260, guid: ba2fb5b91af898bf6b0781b3f8ffe815,
+        type: 3}
+      propertyPath: serializedData
+      value: '{:follow #unity/object[UnityEngine.GameObject -17718], :follow/rotation
+        #unity/value["Quaternion",0.9848078,0.1736482,0,0], :follow/position #unity/value["Vector3",0.6999999,2.3,-2.5],
+        :follow/scale #unity/value["Vector3",1,1,1], :player #unity/object[UnityEngine.GameObject
+        -17718]}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5252456271017543260, guid: ba2fb5b91af898bf6b0781b3f8ffe815,
+        type: 3}
+      propertyPath: objectDatabaseIds.Array.data[0]
+      value: -17718
+      objectReference: {fileID: 0}
+    - target: {fileID: 5252456271017543260, guid: ba2fb5b91af898bf6b0781b3f8ffe815,
+        type: 3}
+      propertyPath: objectDatabaseObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 98798734}
     - target: {fileID: 225775328895059853, guid: ba2fb5b91af898bf6b0781b3f8ffe815,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -595,24 +613,6 @@ PrefabInstance:
       propertyPath: field of view
       value: 70
       objectReference: {fileID: 0}
-    - target: {fileID: 5252456271017543260, guid: ba2fb5b91af898bf6b0781b3f8ffe815,
-        type: 3}
-      propertyPath: serializedData
-      value: '{:follow #unity/object[UnityEngine.GameObject -17718], :follow/rotation
-        #unity/value["Quaternion",0.9848078,0.1736482,0,0], :follow/position #unity/value["Vector3",0.6999999,2.3,-2.5],
-        :follow/scale #unity/value["Vector3",1,1,1], :player #unity/object[UnityEngine.GameObject
-        -17718]}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5252456271017543260, guid: ba2fb5b91af898bf6b0781b3f8ffe815,
-        type: 3}
-      propertyPath: objectDatabaseIds.Array.data[0]
-      value: -17718
-      objectReference: {fileID: 0}
-    - target: {fileID: 5252456271017543260, guid: ba2fb5b91af898bf6b0781b3f8ffe815,
-        type: 3}
-      propertyPath: objectDatabaseObjects.Array.data[0]
-      value: 
-      objectReference: {fileID: 98798734}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba2fb5b91af898bf6b0781b3f8ffe815, type: 3}
 --- !u!1001 &1294656345
