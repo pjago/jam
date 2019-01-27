@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/pjago.unity
+    guid: 086ae77a0588f628f82e52b649063956
+  - enabled: 0
+    path: Assets/Scenes/menu.unity
+    guid: 79b79e02369d075dbaba3a033ed50153
   m_configObjects: {}
